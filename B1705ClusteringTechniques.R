@@ -45,7 +45,7 @@ clusters <- cutree(hc_result, k = 2)
 # Plot the original data colored by clusters
 plot(data, col = clusters, main = "Hierarchical Clustering Results", xlab = "Feature 1", ylab = "Feature 2", pch = 20)
 
-##### 2.3. Identifying the 'Best' no. of Clusters -----
+##### 2.3. Elbow Method -----
 library(cluster)
 set.seed(123)
 

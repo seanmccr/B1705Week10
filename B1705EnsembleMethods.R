@@ -55,6 +55,3 @@ cat("Accuracy:", accuracy, "\n")
 
 
 
-
-
-
